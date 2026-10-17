@@ -11,7 +11,7 @@ type Card = {
   status: Status;
 };
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://kanban-board-umjh.onrender.com";
 
 const COLUMNS: { id: Status; title: string }[] = [
   { id: "todo", title: "To do" },
